@@ -7,8 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "PlayingCardDeck.h"
 
 @interface ViewController : UIViewController
+//@property (nonatomic, strong) Deck *deck;
+@property (strong, nonatomic) IBOutlet UIButton *Button;
+@property (nonatomic) BOOL flip;
 
 
 @end
